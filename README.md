@@ -67,3 +67,13 @@ python run/attack_normal.py --dataset cifar10 --model_type wrn --model2load MODE
 python run/attack_normal.py --dataset cifar10 --model_type wrn --model2load MODEL.ckpt --out_file output_square5000.json --gpu $GPU_ID$ --attack name=square,threshold=8,iter_num=5000,order=-1,window_size_factor=0
 ```
 
+## Bibliography
+
+```
+@article{liu2021impact,
+  title={On the impact of hard adversarial instances on overfitting in adversarial training},
+  author={Liu, Chen and Huang, Zhichao and Salzmann, Mathieu and Zhang, Tong and S{\"u}sstrunk, Sabine},
+  journal={arXiv preprint arXiv:2112.07324},
+  year={2021}
+}
+```
